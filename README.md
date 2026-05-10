@@ -38,12 +38,16 @@ Follow these steps to get the application running on your local machine:
 3. **Initialize the project** (if not already done):
    ```bash
    npm init -y
-   ```
+   
 Install dependencies:
     ```bash
     npm install express
+    ```
+    ```bash
     npm install multer
+    ```
     Start the server:
+    ```bash
     node server.js
     ```
     
