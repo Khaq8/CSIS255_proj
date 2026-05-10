@@ -48,16 +48,16 @@ Install dependencies:
     
 
 
-Access the application: Open your browser and navigate to:
-👉 http://localhost:4000
-✨ Features Implemented
-📸 Image Uploads: Users can upload custom posters for movies/TV shows using multer.
-✅ Real-time Validation: JavaScript form validation ensures data integrity before submission.
-🔍 Browse Library: A dedicated page to view all added titles with their ratings and posters.
-📝 Add New Title: A dynamic form to input title, genre, rating, and upload an image.
-🎨 Responsive UI: Custom CSS (style.css) for a clean, modern look across devices.
-💾 Data Persistence: In-memory data storage via data.js for the current session.
-📂 Project Structure
+    Access the application: Open your browser and navigate to:👉 http://localhost:4000
+
+    ✨ Features Implemented:
+    📸 Image Uploads: Users can upload custom posters for movies/TV shows using multer.
+    ✅ Real-time Validation: JavaScript form validation ensures data integrity before submission.
+    🔍 Browse Library: A dedicated page to view all added titles with their ratings and posters.
+    📝 Add New Title: A dynamic form to input title, genre, rating, and upload an image.
+    🎨 Responsive UI: Custom CSS (style.css) for a clean, modern look across devices.
+    💾 Data Persistence: In-memory data storage via data.js for the current session.
+    📂 Project Structure
 
     
     CSIS255_proj/
