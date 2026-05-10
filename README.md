@@ -17,7 +17,7 @@
 
 ## 📖 Project Overview
 
-This project is a full-stack web application that allows users to browse, rate, and review movies and TV shows. Built with **Node.js** and **Express**, it features a custom image upload system, client-side form validation, and a responsive UI. The application demonstrates core web development concepts including server routing, file handling with `multer`, and dynamic DOM manipulation.
+This project is a full-stack web application that allows users to browse, rate, add, and review movies and TV shows. Built with **Node.js** and **Express**, it features a custom image upload system, client-side form validation, and a responsive UI. The application demonstrates core web development concepts including server routing, file handling with `multer`, and dynamic DOM manipulation.
 
 ---
 
