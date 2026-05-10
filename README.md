@@ -13,7 +13,7 @@ Get the app running on your local machine in seconds:
    npm init -y
    npm install express
    npm install multer
-   node server.js```
+   node server.js
 
 CSIS255_proj/
 ├── public/
