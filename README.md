@@ -43,10 +43,13 @@ Install dependencies:
     ```bash
     npm install express
     ```
+Install Multer
     ```bash
     npm install multer
     ```
-    Start the server:
+    
+Start the server:
+    
     ```bash
     node server.js
     ```
