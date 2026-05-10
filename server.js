@@ -32,7 +32,7 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
-// ger the data in data.js
+// get the data in data.js
 app.get('/movies', (req, res) => {
   res.json(data);
 });
