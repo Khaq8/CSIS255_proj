@@ -43,7 +43,7 @@ Access the application: Open your browser and navigate to:👉 http://localhost:
     📝 Add New Title: A dynamic form to input title, genre, rating, and upload an image.
     🎨 Responsive UI: Custom CSS (style.css) for a clean, modern look across devices.
     💾 Data Persistence: In-memory data storage via data.js for the current session.
-    📂 Project Structure
+📂 Project Structure
 
     
     CSIS255_proj/
