@@ -22,7 +22,7 @@ This project is a full-stack web application that allows users to browse, rate, 
 ---
 
 ## 🚀 Setup & Installation
-Make sure to install `Node.js` on your machine before you start URL:https://nodejs.org/en/download.
+Make sure to install `Node.js` on your machine before you start. URL: https://nodejs.org/en/download
 
 Follow these steps to get the application running on your local machine:
 
