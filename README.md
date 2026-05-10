@@ -38,7 +38,7 @@ Access the application: Open your browser and navigate to:👉 http://localhost:
 
 ---
 
-##✨ Features Implemented:
+##✨ **Features Implemented:**
     📸 Image Uploads: Users can upload custom posters for movies/TV shows using multer.
     ✅ Real-time Validation: JavaScript form validation ensures data integrity before submission.
     🔍 Browse Library: A dedicated page to view all added titles with their ratings and posters.
@@ -48,7 +48,7 @@ Access the application: Open your browser and navigate to:👉 http://localhost:
 
 ---
 
-##📂 Project Structure
+##📂 **Project Structure**
 
     
     CSIS255_proj/
@@ -63,6 +63,8 @@ Access the application: Open your browser and navigate to:👉 http://localhost:
     │   └── style.css
     ├── data.js
     └── server.js
+    
+---
 
 | Feature/Component         | Khaled Ahmad | Mohammed Elnahwy |
 |--------------------------|------------------|------------------|
