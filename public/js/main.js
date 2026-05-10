@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <button onclick="deleteRating('${item.id}')">Delete</button>
         `;
 
-        // FIX: Append to the specific section, not the body
         listContainer.appendChild(card);
       });
     })
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
       console.error('Error loading movies:', error);
     });
 });
-// delete buttom dunction
 function deleteRating(id) {
   fetch(`/movies/${id}`, { method: 'DELETE' })
     .then(() => {
