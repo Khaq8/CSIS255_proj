@@ -59,7 +59,7 @@ Access the application: Open your browser and navigate to:
 💾 Data Persistence: In-memory data storage via data.js for the current session.
 📂 Project Structure
 
-    ```text
+    
     CSIS255_proj/
     ├── public/
     │   ├── posters/          # Uploaded images
@@ -72,7 +72,7 @@ Access the application: Open your browser and navigate to:
     │   └── style.css
     ├── data.js
     └── server.js
-    ```
+
 | Feature/Component         | Khaled Ahmad | Mohammed Elnahwy |
 |--------------------------|------------------|------------------|
 | `server.js`              | ✅               | ✅               |
