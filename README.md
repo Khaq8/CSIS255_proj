@@ -28,23 +28,24 @@ Follow these steps to get the application running on your local machine:
 1. **Clone or download the repository** to your local directory.
     ```bash
     git clone https://github.com/Khaq8/CSIS255_proj
-    cd CSIS255_proj 
-    ```
+   
+    
 
 2. **Open your terminal** in the project root folder (`CSIS255_proj`).
     ```bash
     cd CSIS255_proj
-    ```
+    
 3. **Initialize the project** (if not already done):
    ```bash
    npm init -y
 Install dependencies:
     ```bash
+    
     npm install express
     npm install multer
     Start the server:
     node server.js
-    ```
+    
 
 
 Access the application: Open your browser and navigate to:
