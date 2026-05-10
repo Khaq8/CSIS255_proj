@@ -29,7 +29,6 @@ Follow these steps to get the application running on your local machine:
     ```bash
     git clone https://github.com/Khaq8/CSIS255_proj
     ```
-    
 
 2. **Open your terminal** in the project root folder (`CSIS255_proj`).
     ```bash
@@ -39,16 +38,16 @@ Follow these steps to get the application running on your local machine:
    ```bash
    npm init -y
    
-Install dependencies:
+4.**Install dependencies:
     ```bash
     npm install express
     ```
-Install Multer
+5.**Install Multer
     ```bash
     npm install multer
     ```
     
-Start the server:
+6.**Start the server:
     
     ```bash
     node server.js
