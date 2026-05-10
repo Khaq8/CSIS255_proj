@@ -2,11 +2,12 @@
 web project -movie and tv shows rating system.
 
 Terminal setup before starting:
-
+''' bash
 ~npm init -y
 ~npm install express
 ~npm install multer
 ~node server.js
+'''
 
 Go to local http://localhost:4000
 
