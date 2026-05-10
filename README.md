@@ -15,6 +15,7 @@ Get the app running on your local machine in seconds:
    npm install multer
    node server.js
 
+```text
 CSIS255_proj/
 ├── public/
 │   ├── posters/          # Uploaded movie/TV show images
@@ -25,5 +26,5 @@ CSIS255_proj/
 │   ├── browse.html       # Gallery view of all titles
 │   ├── index.html        # Landing page
 │   └── style.css         # Custom styling
-├── data.js               # In-memory data storage (or database config)
+├── data.js               # In-memory data storage
 └── server.js             # Express server setup & routes
