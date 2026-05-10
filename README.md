@@ -27,23 +27,24 @@ Follow these steps to get the application running on your local machine:
 
 1. **Clone or download the repository** to your local directory.
     ```bash
-git clone https://github.com/Khaq8/CSIS255_proj
-cd CSIS255_proj
+    git clone https://github.com/Khaq8/CSIS255_proj
+    cd CSIS255_proj 
+    ```
 
 2. **Open your terminal** in the project root folder (`CSIS255_proj`).
     ```bash
-cd CSIS255_proj
-
+    cd CSIS255_proj
+    ```
 3. **Initialize the project** (if not already done):
    ```bash
    npm init -y
 Install dependencies:
     ```bash
-npm install express
-npm install multer
-Start the server:
-    ```bash
-node server.js
+    npm install express
+    npm install multer
+    Start the server:
+    node server.js
+    ```
 
 
 Access the application: Open your browser and navigate to:
@@ -58,19 +59,19 @@ Access the application: Open your browser and navigate to:
 📂 Project Structure
 
     ```text
-CSIS255_proj/
-├── public/
-│   ├── posters/          # Uploaded images
-│   ├── js/
-│   │   ├── form-validation.js
-│   │   └── main.js
-│   ├── add.html
-│   ├── browse.html
-│   ├── index.html
-│   └── style.css
-├── data.js
-└── server.js
-
+    CSIS255_proj/
+    ├── public/
+    │   ├── posters/          # Uploaded images
+    │   ├── js/
+    │   │   ├── form-validation.js
+    │   │   └── main.js
+    │   ├── add.html
+    │   ├── browse.html
+    │   ├── index.html
+    │   └── style.css
+    ├── data.js
+    └── server.js
+    ```
 | Feature/Component         | Khaled Ahmad | Mohammed Elnahwy |
 |--------------------------|------------------|------------------|
 | `server.js`              | ✅               | ✅               |
