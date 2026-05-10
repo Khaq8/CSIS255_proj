@@ -25,15 +25,13 @@ This project is a full-stack web application that allows users to browse, rate, 
 
 Follow these steps to get the application running on your local machine:
 
-    ```bash
+    
     git clone https://github.com/Khaq8/CSIS255_proj
     cd CSIS255_proj
     npm init -y
     npm install express
     npm install multer
     node server.js
-    ```
-
 
     
 Access the application: Open your browser and navigate to:👉 http://localhost:4000
