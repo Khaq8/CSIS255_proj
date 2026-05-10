@@ -1,27 +1,29 @@
-# CSIS255_proj
-web project -movie and tv shows rating system.
+# 🎬 CSIS255_proj: Movie & TV Show Rating System
 
-Terminal setup before starting:
-''' bash
-~npm init -y
-~npm install express
-~npm install multer
-~node server.js
-'''
+Welcome to **CSIS255_proj**, a dynamic web application designed to explore, rate, and review your favorite movies and TV shows! Built with **Node.js** and **Express**, this project features a custom image upload system, real-time form validation, and a seamless browsing experience.
 
-Go to local http://localhost:4000
+---
 
+## 🚀 Quick Start
 
-The set up for the web application:
+Get the app running on your local machine in seconds:
+
+1. **Initialize the project and install dependencies:**
+   ```bash
+   npm init -y
+   npm install express
+   npm install multer
+   node server.js```
+
 CSIS255_proj/
 ├── public/
-│   ├── posters/
+│   ├── posters/          # Uploaded movie/TV show images
 │   ├── js/
-│   │   └── form-validation.js
-│   │   └── main.js
-│   ├── add.html
-│   ├── index.html
-│   ├── browse.html
-│   └── style.css
-├── data.js
-└── server.js
+│   │   ├── form-validation.js  # Client-side input validation
+│   │   └── main.js             # Core frontend logic
+│   ├── add.html          # Form to add new titles
+│   ├── browse.html       # Gallery view of all titles
+│   ├── index.html        # Landing page
+│   └── style.css         # Custom styling
+├── data.js               # In-memory data storage (or database config)
+└── server.js             # Express server setup & routes
