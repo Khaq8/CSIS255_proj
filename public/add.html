@@ -1,0 +1,49 @@
+<!-- public/add.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class = "animated-heading">Add a New Rating for movies or TV-Shows</h1>
+        <nav>
+            <a class = "animated-link" href="index.html">Home</a>
+            <a class = "animated-link" href="browse.html">Browse</a>
+        </nav>
+    </header>
+    <main>
+        <form id="add-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required><br><br>
+
+            <label for="type">Type:</label>
+            <select id="type" required>
+                <option value="movie">Movie</option>
+                <option value="tv">TV Show</option>
+            </select><br><br>
+
+            <label for="rating">Rating:</label>
+            <input type="number" id="rating" step="0.1" min="0" max="10" required><br><br>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" required></textarea><br><br>
+
+            <label for="poster">Poster:</label>
+            <input type="file" id="poster" accept="image/*"><br><br>
+
+            <button type="submit">Add Rating</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Khaled Ahmad/Mohammed Elnahwy - 2026 Movie & TV Show Ratings</p>
+    </footer>
+    <script src="js/form-validation.js"></script>
+</body>
+
+</html>
