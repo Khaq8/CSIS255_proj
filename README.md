@@ -28,7 +28,7 @@ Follow these steps to get the application running on your local machine:
 1. **Clone or download the repository** to your local directory.
     ```bash
     git clone https://github.com/Khaq8/CSIS255_proj
-   
+    ```
     
 
 2. **Open your terminal** in the project root folder (`CSIS255_proj`).
@@ -38,19 +38,18 @@ Follow these steps to get the application running on your local machine:
 3. **Initialize the project** (if not already done):
    ```bash
    npm init -y
+   ```
 Install dependencies:
     ```bash
-    
     npm install express
     npm install multer
     Start the server:
     node server.js
+    ```
     
+Access the application: Open your browser and navigate to:👉 http://localhost:4000
 
-
-    Access the application: Open your browser and navigate to:👉 http://localhost:4000
-
-    ✨ Features Implemented:
+✨ Features Implemented:
     📸 Image Uploads: Users can upload custom posters for movies/TV shows using multer.
     ✅ Real-time Validation: JavaScript form validation ensures data integrity before submission.
     🔍 Browse Library: A dedicated page to view all added titles with their ratings and posters.
