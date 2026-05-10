@@ -27,7 +27,7 @@ Make sure to install `Node.js` on your machine before you start. URL: https://no
 Follow these steps to get the application running on your local machine:
 
     
-    git clone https://github.com/Khaq8/CSIS255_proj
+    git clone https://github.com/Khaq8/CSIS255_proj.git
     cd CSIS255_proj
     npm init -y
     npm install express
