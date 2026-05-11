@@ -76,6 +76,7 @@ Access the application: Open your browser and navigate to:👉 http://localhost:
 | `public/browse.html`     | ✅               | ✅               |
 | `public/style.css`       | ✅               | ✅               |
 | `public/js/form-validation.js` |✅          | ✅               |
+| `public/js/main.js`        |✅              | ✅               |
 | Backend logic (add/delete) | ✅             | ✅               |
 | Frontend UI and layout   | ✅               | ✅               |
 | Image upload handling    | ✅               | ✅               |
