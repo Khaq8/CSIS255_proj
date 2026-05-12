@@ -22,7 +22,6 @@ header {
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #fff;
 }
 
 
@@ -32,6 +31,13 @@ main {
   overflow-y: auto;
 }
 
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ffffff;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  animation: fadeIn 1s ease-out;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -106,6 +112,7 @@ button:hover {
   margin-bottom: 1.5rem;
   animation: slideInLeft 1s ease-out;
 }
+
 .animated-link:hover {
   font-size: 0.9rem;
   background: linear-gradient(90deg, #3e8e3e, #1e73c6);
@@ -127,6 +134,7 @@ button:hover {
   margin-bottom: 1.5rem;
   animation: slideInLeft 1s ease-out;
 }
+
 .animated-text {
   font-size: 1rem;
   background: linear-gradient(90deg, #337535, #1662a0);
@@ -137,21 +145,20 @@ button:hover {
   animation: slideInLeft 1s ease-out;
 }
 
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
 
-
-.intro-text {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  color: #ffffff;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-  animation: fadeIn 1s ease-out;}
-
-/* Animations */
+/* Animations for the text */
 @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -163,6 +170,7 @@ button:hover {
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -173,24 +181,19 @@ button:hover {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   .animated-heading {
     font-size: 2rem;
   }
+
   .welcome-section {
     padding: 1.5rem;
   }
-}
-
-footer {
-  background-color: #333;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
 }
