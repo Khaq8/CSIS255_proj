@@ -42,6 +42,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  animation: slideInLeft 1s ease-out;
 }
 
 input,
@@ -62,6 +63,7 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  animation: slideInLeft 1s ease-out;
 }
 
 button:hover {
@@ -81,6 +83,7 @@ button:hover {
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
+  animation: slideInLeft 1s ease-out;
 }
 
 .welcome-section {
@@ -152,7 +155,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* Animations for the text */
+/* Animations  */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -187,13 +190,3 @@ footer {
   }
 }
 
-
-@media (max-width: 600px) {
-  .animated-heading {
-    font-size: 2rem;
-  }
-
-  .welcome-section {
-    padding: 1.5rem;
-  }
-}
